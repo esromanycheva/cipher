@@ -6,7 +6,8 @@ user_word = STDIN.gets.chomp
 
 puts "Каким способом зашифровать:
 1. MD5
-2. SHA1"
+2. SHA1
+3. SHA2"
 
 user_choose = STDIN.gets.to_i
 
